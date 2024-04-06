@@ -1,5 +1,6 @@
 package com.spring.security.auth;
 
+import com.spring.security.user.Role;
 import lombok.*;
 
 @Data
@@ -12,5 +13,6 @@ public class RegisterRequest {
     private String lastname;
     private String email;
     private String password;
+    private Role role;
 
 }
